@@ -1,0 +1,45 @@
+table.side{
+    background: aqua;
+    height: 230pt;
+}
+.right{
+    align:right;
+}
+#img{
+    float:right;
+    height: 225pt;
+    width: 225pt;
+}
+#note{
+    position:fixed;
+    right: 14%;
+    top:70%;
+    font-size: x-large;
+}
+.text_1{
+    font-size: large;
+    font-weight:bold;
+    line-height: 30px;
+    padding-left: 50px;
+}
+#content{
+    background-image: url('image/strollbackground.jpg');
+}
+.spacing{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+#head{
+    background: url('image/timg.jpg');
+}
+#title{
+    font-family:Cooper Std Black,serif;
+    font-size: xx-large;
+}
+#head{
+    height: 100pt;
+}
+body{
+    background: #aaffaa;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Horse chestnut</title>
+    <script src = 'myScript.js' type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="infostyle.css">
+    <!--
+    <style>
+        table.side{
+            background: aqua;
+            height: 230pt;
+        }
+        .right{
+            align:right;
+        }
+        #img{
+            float:right;
+            height: 225pt;
+            width: 225pt;
+        }
+        #note{
+            position:fixed;
+            right: 14%;
+            top:70%;
+            font-size: x-large;
+        }
+        .text_1{
+            font-size: large;
+            font-weight:bold;
+            line-height: 30px;
+            padding-left: 50px;
+        }
+        #content{
+            background-image: url('image/strollbackground.jpg');
+        }
+        .spacing{
+            padding: 0;
+            border: 0;
+            margin: 0;
+        }
+        #head{
+            background: url('image/timg.jpg');
+        }
+        #title{
+            font-family:Cooper Std Black,serif;
+            font-size: xx-large;
+        }
+        #head{
+            height: 100pt;
+        }
+        body{
+            background: #aaffaa;
+        }
+
+    </style>-->
+</head>
+<body onload = 'showContent()'>
+<table id = 'top'>
+    <tbody>
+    <tr>
+        <td>&nbsp;</td>
+    </tr>
+    </tbody>
+</table>
+<table id = 'head'  width = 900  align = 'center' >
+    <tr>
+        <td id = 'title' width = '275' style = 'cursor: pointer' onclick="window.open('home.html')" >herbal remedy</td>
+        <td>
+            <input align = 'left' id = 'search' type = 'text' placeholder = 'search for herbs' >
+            <select title = 'choice' id = 'selection'>
+                <option>herbs</option>
+                <option>symptoms</option>
+                <option>distribution areas</option>
+            </select>
+            <button type = 'button' onclick = 'window.open("search.html")'>search</button>
+
+        </td>
+        <td ><a href = 'signin.html'>sign in </a><span>&nbsp;&nbsp;&nbsp;</span><a href = 'register.html'>register</a> </td>
+    </tr>
+
+</table>
+<table class = 'spacing' height = 800 border = '0' width = '900' align = 'center'>
+    <tr>
+        <td valign = 'top' width = '20%' id = 'content'>
+            <table  id = 'quickvisit' border = '0'>
+                <tr><td class = 'text_1'>Herbs:</td></tr>
+            </table>
+        </td>
+        <td width = '80%' class = 'text_1' valign = 'top' >
+            <h1 id = 'herb'>Horse chestnut</h1>
+            <img id = 'img' src = 'image/horse_chestnut.jpg'>
+            <div>
+                <table class="side">
+                    <tr><td>safety:</td><td id = 'safety' class = 'right'>&#9733&#9733&#9733&#9733</td></tr>
+                    <tr><td>traditional use:</td><td id = 'traditional_use' class = 'right'>&#9733&#9733&#9733&#9733&#9733</td></tr>
+                    <tr><td>research:</td><td id = 'research' class = 'right'>&#9733&#9733&#9733&#9733&#9733</td></tr>
+                    <tr><td>distribution:</td><td>Europe,Aisa</td></tr>
+                    <tr><td>objected symptom:</td><td>venous circulatory problems</td></tr>
+                </table>
+            </div>
+            <h2>Use</h2>
+            <p>When considering the use of herbal supplements, seek the advice of your doctor. You may also consider consulting a practitioner who is trained in the use of herbal/health supplements.
+                If you choose to use horse chestnut, use it as directed on the package or as directed by your doctor, pharmacist, or other healthcare provider. Do not use more of this product than is recommended on the label.
+                The usual dose of horse chestnut in capsule form is 1 capsule every 12 hours before a meal.
+                Take the capsule with a full glass of water.
+                Do not crush, chew, break, or open a horse chestnut capsule. Swallow it whole.
+                It is best to use a horse chestnut product that contains an exact amount of the labeled chemical. Check the label to be sure your product does not contain a toxic substance called "esculin."
+                It may take up to 4 weeks before your symptoms improve. Call your doctor if your symptoms do not improve, or if they get worse while using horse chestnut.
+                Store at room temperature away from moisture, heat, and light.</p>
+
+            <h2>Adverse Reactions</h2>
+            <p>Get emergency medical help if you have any of these signs of an allergic reaction: hives; difficult breathing; swelling of your face, lips, tongue, or throat.
+                Although not all side effects are known, horse chestnut is thought to be possibly safe when taken for a short period of time.</p>
+        </td>
+
+    </tr>
+</table>
+</body>
+</html>

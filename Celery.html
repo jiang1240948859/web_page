@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Celery</title>
+    <script src = 'myScript.js' type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="infostyle.css">
+    <!--
+    <style>
+        table.side{
+            background: aqua;
+            height: 230pt;
+        }
+        .right{
+            align:right;
+        }
+        #img{
+            float:right;
+            height: 225pt;
+            width: 225pt;
+        }
+        #note{
+            position:fixed;
+            right: 14%;
+            top:70%;
+            font-size: x-large;
+        }
+        .text_1{
+            font-size: large;
+            font-weight:bold;
+            line-height: 30px;
+            padding-left: 50px;
+        }
+        #content{
+            background-image: url('image/strollbackground.jpg');
+        }
+        .spacing{
+            padding: 0;
+            border: 0;
+            margin: 0;
+        }
+        #head{
+            background: url('image/timg.jpg');
+        }
+        #title{
+            font-family:Cooper Std Black,serif;
+            font-size: xx-large;
+        }
+        #head{
+            height: 100pt;
+        }
+        body{
+            background: #aaffaa;
+        }
+
+    </style>
+    -->
+</head>
+<body onload = 'showContent()'>
+<table id = 'top'>
+    <tbody>
+    <tr>
+        <td>&nbsp;</td>
+    </tr>
+    </tbody>
+</table>
+<table id = 'head'  width = 900  align = 'center' >
+    <tr>
+        <td id = 'title' width = '275' style = 'cursor: pointer' onclick="window.open('home.html')" >herbal remedy</td>
+        <td>
+            <input align = 'left' id = 'search' type = 'text' placeholder = 'search for herbs' >
+            <select title = 'choice' id = 'selection'>
+                <option>herbs</option>
+                <option>symptoms</option>
+                <option>distribution areas</option>
+            </select>
+            <button type = 'button' onclick = 'window.open("search.html")'>search</button>
+
+        </td>
+        <td ><a href = 'signin.html'>sign in </a><span>&nbsp;&nbsp;&nbsp;</span><a href = 'register.html'>register</a> </td>
+    </tr>
+
+</table>
+<table class = 'spacing' height = 800 border = '0' width = '900' align = 'center'>
+    <tr>
+        <td valign = 'top' width = '20%' id = 'content'>
+            <table  id = 'quickvisit' border = '0'>
+                <tr><td class = 'text_1'>Herbs:</td></tr>
+            </table>
+        </td>
+        <td width = '80%' class = 'text_1' valign = 'top' >
+            <h1 id = 'herb'>Celery</h1>
+            <img id = 'img' src = 'image/Celery.jpg'>
+            <div>
+                <table class="side">
+                    <tr><td>safety:</td><td id = 'safety' class = 'right'>&#9733&#9733&#9733&#9733</td></tr>
+                    <tr><td>traditional use:</td><td id = 'traditional_use' class = 'right'>&#9733&#9733&#9733&#9733</td></tr>
+                    <tr><td>research:</td><td id = 'research' class = 'right'>&#9733&#9733</td></tr>
+                    <tr><td>distribution:</td><td>global</td></tr>
+                    <tr><td>objected symptom:</td><td>athritics problems,rheumatic problems</td></tr>
+                </table>
+            </div>
+            <h2>Use</h2>
+            <p>Antioxidant, anti-inflammatory, and cytotoxic effects have been described.
+                Limited clinical trials support traditional uses of celery and celery seed extracts.
+                A role in cardiovascular conditions has not been determined.</p>
+            <h2>Dosing</h2>
+            <p>Clinical trials guiding celery dosage are limited. n-Butylphthalide 200 and 400 mg daily doses have been used.
+                Carminative use of the seed typically involves 1 to 4 g doses.</p>
+            <h2>Contraindications</h2>
+            <p>Celery seed is contraindicated in pregnancy.</p>
+            <h2>Pregnancy/Lactation</h2>
+            <p>Avoid use. Celery seed is contraindicated in pregnancy.</p>
+            <h2>Side Effects</h2>
+            <p>Allergy, including dermatitis and anaphylaxis (rare), and phototoxicity to celery and its constituents have been reported.
+                Dose-dependent hepatotoxicity has been noted for n-butylphthalide.</p>
+        </td>
+
+    </tr>
+</table>
+</body>
+</html>

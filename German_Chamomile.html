@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>German Chamomile</title>
+    <script src = 'myScript.js' type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="infostyle.css">
+    <!--<style>
+        table.side{
+            background: aqua;
+            height: 230pt;
+        }
+        .right{
+            align:right;
+        }
+        #img{
+            float:right;
+            height: 225pt;
+            width: 225pt;
+        }
+        #note{
+            position:fixed;
+            right: 14%;
+            top:70%;
+            font-size: x-large;
+        }
+        .text_1{
+            font-size: large;
+            font-weight:bold;
+            line-height: 30px;
+            padding-left: 50px;
+        }
+        #content{
+            background-image: url('image/strollbackground.jpg');
+        }
+        .spacing{
+            padding: 0;
+            border: 0;
+            margin: 0;
+        }
+        #head{
+            background: url('image/timg.jpg');
+        }
+        #title{
+            font-family:Cooper Std Black,serif;
+            font-size: xx-large;
+        }
+        #head{
+            height: 100pt;
+        }
+        body{
+            background: #aaffaa;
+        }
+
+    </style>-->
+</head>
+<body onload = 'showContent()'>
+<table id = 'top'>
+    <tbody>
+    <tr>
+        <td>&nbsp;</td>
+    </tr>
+    </tbody>
+</table>
+<table id = 'head'  width = 900  align = 'center' >
+    <tr>
+        <td id = 'title' width = '275' style = 'cursor: pointer' onclick="window.open('home.html')" >herbal remedy</td>
+        <td>
+            <input align = 'left' id = 'search' type = 'text' placeholder = 'search for herbs' >
+            <select title = 'choice' id = 'selection'>
+                <option>herbs</option>
+                <option>symptoms</option>
+                <option>distribution areas</option>
+            </select>
+            <button type = 'button' onclick = 'window.open("search.html")'>search</button>
+
+        </td>
+        <td ><a href = 'signin.html'>sign in </a><span>&nbsp;&nbsp;&nbsp;</span><a href = 'register.html'>register</a> </td>
+    </tr>
+
+</table>
+<table class = 'spacing' height = 800 border = '0' width = '900' align = 'center'>
+    <tr>
+        <td valign = 'top' width = '20%' id = 'content'>
+            <table  id = 'quickvisit' border = '0'>
+                <tr><td class = 'text_1'>Herbs:</td></tr>
+            </table>
+        </td>
+        <td width = '80%' class = 'text_1' valign = 'top' >
+            <h1 id = 'herb'>German Chamomile</h1>
+            <img id = 'img' src = 'image/chamomile.jpg'>
+            <div>
+                <table class="side">
+                    <tr><td>safety:</td><td id = 'safety' class = 'right'>&#9733&#9733&#9733&#9733</td></tr>
+                    <tr><td>traditional use:</td><td id = 'traditional_use' class = 'right'>&#9733&#9733&#9733&#9733&#9733</td></tr>
+                    <tr><td>research:</td><td id = 'research' class = 'right'>&#9733&#9733&#9733&#9733</td></tr>
+                    <tr><td>distribution:</td><td>Europe</td></tr>
+                    <tr><td>objected symptom:</td><td>digestive and inflammatory condition</td></tr>
+                </table>
+            </div>
+            <h2>Use</h2>
+            <p>Chamomile is used topically in skin and mucous membrane inflammations and skin diseases.
+                It can be inhaled for respiratory tract inflammations or irritations; used in baths as
+                irrigation for anogenital inflammation; and used internally for GI spasms and inflammatory
+                diseases, and applied topically as an analgesic and spasmolytic. Preliminary data also indicate
+                potential benefit for maintaining remission of ulcerative colitis, improving glycemic and lipid
+                parameters in type 2 diabetes, and improving adaptive and social functioning in children with autism.
+                However, clinical trials supporting any use of chamomile are limited.</p>
+            <h2>Dosing</h2>
+
+            <p>Chamomile has been used as a tea for various conditions and as a topical cream, gel,
+                or oil. Typical oral doses are 1.1 to 15 g/day. Gargles made from 8 g chamomile
+                flowers in 1,000 mL of water have been used in clinical trials.</p>
+            <h2>Contraindications</h2>
+            <p>The use of chamomile-containing preparations is contraindicated
+                in persons with hypersensitivity to ragweed pollens.</p>
+            <h2>Pregnancy/Lactation</h2>
+            <p>Unreferenced adverse reactions have been cited. Avoid use during pregnancy.
+                No clinical data are available on use during lactation.</p>
+            <h2>Side Effects</h2>
+            <p>Use of the tea and essential oil has resulted in anaphylaxis, contact dermatitis, and other severe hypersensitivity reactions. Cross-reactivity to asters, chrysanthemums, ragweed, and other members of the Asteraceae family exists.
+
+                Toxicology</p>
+        </td>
+
+    </tr>
+</table>
+</body>
+</html>
